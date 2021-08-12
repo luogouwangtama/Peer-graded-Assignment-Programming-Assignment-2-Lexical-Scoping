@@ -1,7 +1,7 @@
 
 ## Grace L.
 ## Aug.11/2021
-## Create a "matrix" that can cache its inverse.
+## Create a "matrix" x that can cache its inverse.
 ## "inv" is the property
 
 
@@ -27,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-
+## Return the inverse matrix
 cacheSolve <- function(x, ...) {
 	inv <- x$getInverse()
 	if (!is.null(inv)) {
